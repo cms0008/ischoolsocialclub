@@ -7,7 +7,7 @@ if($_POST["message"]) {
 mail("christinesalek@gmail.com", "iSchool Social Club event",
 
 
-$_POST["insert your message here"]. "From: an@email.address");
+$_POST["insert your message here"].);
 
 
 }
@@ -17,9 +17,7 @@ $_POST["insert your message here"]. "From: an@email.address");
 
 <form method="post" action="subscriberform.php">
 
-Event to add: <textarea name="event name"></textarea>
-  <br><br>
-Event Link or Event Info: <textarea name="event link OR event info"></textarea>
+Event to add: <textarea name="message"></textarea>
   <br><br>
 <input type="submit">
 
