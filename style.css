@@ -1,3 +1,13 @@
-a {
-  font-family: "Tahoma";
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+a:hover, a:active {
+  background-color: red;
 }
